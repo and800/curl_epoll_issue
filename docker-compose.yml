@@ -1,0 +1,9 @@
+version: '3'
+services:
+  app:
+    build: .
+#    image: ubuntu:21.04
+#    stop_signal: SIGKILL
+#    command: sleep infinity
+#    volumes:
+#      - .:/host
